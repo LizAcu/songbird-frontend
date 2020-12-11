@@ -144,7 +144,7 @@ class MusicContainer extends Component {
     render() {
         return (
             <div className="container">
-                <h3 className="playlist-header">Playlists</h3>
+                <h3 className="playlist-header">Playlist</h3>
                 <MusicInput
                     music={this.state.music}
                     createMusic={this.createMusic}

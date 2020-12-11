@@ -34,7 +34,7 @@ export default function Song (props) {
                     <h3>{music.artist}</h3>
                 </Card.Description>
                 <Card.Header>
-                    <audio
+                    <audio crossOrigin="anonymous"
                         src={music.song}
                         controls
                         autoPlay

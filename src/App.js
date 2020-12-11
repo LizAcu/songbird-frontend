@@ -3,7 +3,6 @@ import Header from './Header'
 import "./App.css";
 import MusicContainer from "./MusicContainer"
 import NewUser from './NewUser'
-import AudioClipsContainer from './AudioClipsContainer'
 import { Icon } from 'semantic-ui-react'
 
 
@@ -127,7 +126,7 @@ export default class App extends Component {
             />
         }
         <MusicContainer />
-        <AudioClipsContainer/>
+        
         
         
     

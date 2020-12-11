@@ -9,7 +9,8 @@ export default class EditMusic extends Component {
         this.state = {
             title: props.musicToEdit.title,
             artist: props.musicToEdit.artist,
-            album: props.musicToEdit.album
+            album: props.musicToEdit.album, 
+            album_cover: props.musicToEdit.album_cover
             
         }
     }
@@ -45,7 +46,7 @@ export default class EditMusic extends Component {
                     name="artist"
                     value={this.state.artist}
                     placeholder="Enter new artist info"
-                    onChange={this.handleChamge}
+                    onChange={this.handleChange}
                     />
                     <Label>Album:</Label>
                     <Form.Input
@@ -55,6 +56,14 @@ export default class EditMusic extends Component {
                       placeholder="Enter new album info"
                       onChange={this.handleChange}
                       />
+                    <Label>Album Art:</Label>
+                    <Form.Input
+                    type="text"
+                    name="album_cover"
+                    value={this.state.album_cover}
+                    placeholder="Enter new album info"
+                    onChange={this.handleChange}
+                    />
                       <Button type="Submit">Update Song</Button>  
             </Form>
             </React.Fragment>
