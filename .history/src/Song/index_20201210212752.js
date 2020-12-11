@@ -37,6 +37,7 @@ export default function Song (props) {
                     <audio crossOrigin="anonymous"
                         src={music.song}
                         controls
+                        autoPlay
                         />
                 </Card.Header>
              </Card.Content>   

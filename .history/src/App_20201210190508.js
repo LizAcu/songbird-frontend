@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 import Header from './Header'
 import "./App.css";
+import MusicContainer from "./MusicContainer"
 import NewUser from './NewUser'
 import { Icon } from 'semantic-ui-react'
-import ProfilePage from './ProfilePage'
-// import JustSongs from './JustSongs'
 
 
 export default class App extends Component {
@@ -108,7 +107,7 @@ export default class App extends Component {
     render() {
     return (
       <div className="App">
-        <h2 className="bird-icon"><Icon name="earlybirds" color="yellow"></Icon><Icon name="music"></Icon></h2><h1 className="app-name">SongBird</h1>
+        <h1 className="app-name">SongBird</h1><h2 className="bird-icon"><Icon name="earlybirds" color="yellow"></Icon><Icon name="music"></Icon></h2>
         
         {
           this.state.loggedIn
@@ -118,7 +117,7 @@ export default class App extends Component {
             email={this.state.loggedInUser.email}
             logout={this.logout}
             />
-            <ProfilePage />
+            
           </React.Fragment>
         :
         <NewUser
@@ -126,7 +125,7 @@ export default class App extends Component {
           register={this.register}
             />
         }
-        
+        <MusicContainer />
         
         
         

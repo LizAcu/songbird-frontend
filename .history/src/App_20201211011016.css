@@ -11,7 +11,7 @@
   /* background-color: black; */
 }
 body {
-  background-color: black;
+  background-color: red;
 }
 .new-form {
   /* background-image: url('https://www.freevector.com/uploads/vector/preview/28724/psychedelic-pattern-02.jpg'); */
@@ -86,7 +86,7 @@ body {
 .profile-title {
   font-family: 'Big Shoulders Stencil Display', cursive;
   font-size: 60px;
-  background-color: black;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsCzQwwEs3lDoaJneV4g3vvzd2nDupF6V31g&usqp=CAU')
  
 }
 

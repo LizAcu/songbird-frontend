@@ -108,7 +108,7 @@ export default class App extends Component {
     render() {
     return (
       <div className="App">
-        <h2 className="bird-icon"><Icon name="earlybirds" color="yellow"></Icon><Icon name="music"></Icon></h2><h1 className="app-name">SongBird</h1>
+        <h1 className="app-name">SongBird</h1><h2 className="bird-icon"><Icon name="earlybirds" color="yellow"></Icon><Icon name="music"></Icon></h2>
         
         {
           this.state.loggedIn

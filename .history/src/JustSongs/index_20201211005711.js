@@ -17,17 +17,6 @@ export default function Song (props) {
                 <Card.Header>
                     <img src={music.album_cover} width="250" height="200" className="album-cover-image"></img>
                 </Card.Header>    
-                <Button color="red"
-                onClick={() => props.deleteMusic(music._id) }>
-                    Delete Song
-                </Button>
-                <Button
-                    color='green'
-                    onClick={ ()=> props.editMusic(music._id) }
-                >
-                    Edit Music
-                </Button>
-               
                 <Card.Description>
                     <br/>
                     <h2>{music.title}</h2>
