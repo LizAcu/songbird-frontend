@@ -63,7 +63,7 @@ handleSubmit = (event) => {
                               />  
                         </React.Fragment>
                     }
-                    <Label><Icon name="envelope"></Icon>Email:</Label>
+                    <Label>Email:</Label>
                     <Form.Input
                       type="email"
                       name="email"

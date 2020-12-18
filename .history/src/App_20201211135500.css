@@ -4,7 +4,7 @@
 
 .App {
   text-align: center;
-  color: rgba(231, 206, 215, 0.966);
+  color: rgba(235, 224, 228, 0.966);
   background-image: url('https://www.freevector.com/uploads/vector/preview/28724/psychedelic-pattern-02.jpg')
   /* background-image: url('https://99percentinvisible.org/app/uploads/2019/02/abstract-background-colors.jpg') */
   /* background-image: url('https://www.sciencefriday.com/wp-content/uploads/2018/03/shutterstock_1017761377-min.jpg'); */
@@ -35,7 +35,7 @@
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsCzQwwEs3lDoaJneV4g3vvzd2nDupF6V31g&usqp=CAU')
 }
 .cards {
-  background-color: rgb(250, 250, 112);
+  background-color: rgb(243, 243, 61)
   border-radius: 25px;
 }
 .app-name {
@@ -43,7 +43,7 @@
   font-family: 'Pacifico', cursive;
   font-size: 72px;
    
-  background-color:  rgb(250, 250, 112);
+  background-color: rgb(243, 243, 61)
 
 }
 .form-label {

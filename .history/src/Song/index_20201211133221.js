@@ -27,10 +27,9 @@ export default function Song (props) {
                     color='green'
                     onClick={ ()=> props.editMusic(music._id) }
                 >
-                    <Icon name="edit"></Icon>
-                    <br />
                     Edit Music  
-                    
+                    <br />
+                    <Icon name="edit"></Icon>
                 </Button>
                
                 <Card.Description>

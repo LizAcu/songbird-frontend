@@ -19,18 +19,14 @@ export default function Song (props) {
                 </Card.Header>    
                 <Button color="red"
                 onClick={() => props.deleteMusic(music._id) }>
-                    <Icon name="times circle"></Icon>
-                    <br />
-                    Delete Song   
+                    Delete Song
                 </Button>
                 <Button
                     color='green'
                     onClick={ ()=> props.editMusic(music._id) }
                 >
-                    <Icon name="edit"></Icon>
-                    <br />
                     Edit Music  
-                    
+                    <Icon name="edit"></Icon>
                 </Button>
                
                 <Card.Description>

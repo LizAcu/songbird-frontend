@@ -57,7 +57,7 @@ export default class MusicInput extends Component {
                            onChange={this.handleChange}
                            /> 
                 </Label>
-                <Label><Icon name="bars"></Icon>Album:
+                <Label>Album:
                     <Input type="text"
                            name="album"
                            value={this.state.album}

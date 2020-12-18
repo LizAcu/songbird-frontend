@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Card, Button, Icon } from 'semantic-ui-react'
+import { Card, Button } from 'semantic-ui-react'
 import ReactAudioPlayer from 'react-audio-player';
 
 // import true.mp3 from '../public/mp3Folder/true.mp3';
@@ -19,19 +19,14 @@ export default function Song (props) {
                 </Card.Header>    
                 <Button color="red"
                 onClick={() => props.deleteMusic(music._id) }>
-                    <Icon name="times circle"></Icon>
-                    <br />
-                    Delete Song   
+                    Delete Song
                 </Button>
                 <Button
                     color='green'
                     onClick={ ()=> props.editMusic(music._id) }
                 >
-                    <Icon name="edit"></Icon>
-                    <br />
-                    Edit Music  
-                    
-                </Button>
+                    Edit Music
+                </Button><Icon name="edit"></Icon>
                
                 <Card.Description>
                     <br/>

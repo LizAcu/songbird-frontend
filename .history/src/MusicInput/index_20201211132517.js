@@ -41,7 +41,7 @@ export default class MusicInput extends Component {
         return (
             <div>
             <Form className="new-form" onSubmit={this.handleSubmit}>
-                <Label className="title"><Icon name="bars"></Icon>Title: 
+                <Label className="title">Title: 
                     <Input type="text"
                            name="title"
                            value={this.state.title}
@@ -57,7 +57,7 @@ export default class MusicInput extends Component {
                            onChange={this.handleChange}
                            /> 
                 </Label>
-                <Label><Icon name="bars"></Icon>Album:
+                <Label>Album:
                     <Input type="text"
                            name="album"
                            value={this.state.album}
